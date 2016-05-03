@@ -59,7 +59,7 @@ $(function(){
     askQuestions : function() {
       var html = "";
       for (var i=0; i<this.questions.length; i++) {
-        html+= this.questions[i].question; 
+        html+= this.questions[i].question; //do you want it salty?
         html+= " <input type='checkbox' class='option' name='preference'";
         html+= "value='" + this.questions[i].property + "'/><br/><br/>";
       }
